@@ -207,7 +207,7 @@
     "plan": "basic",
     "birthday": "1978-07-05",
     "address": "North of the Wall",
-    "status":"active"
+    "status":"suspended"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "plan": "basic",
     "birthday": "1973-11-11",
     "address": "Pyke",
-    "status":"active"
+    "status":"suspended"
   },
   {
     "id": 23,
@@ -397,6 +397,6 @@
     "plan": "basic",
     "birthday": "1968-01-10",
     "address": "Dragonstone",
-    "status":"shadowbanned"
+    "status":"suspended"
   }
 ]
