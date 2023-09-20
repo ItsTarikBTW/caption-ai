@@ -1,9 +1,7 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Sidebar from "../components/sidebar";
-import ThemeSwitcher from "../components/ThemeSwitcher";
 import Navbar from "../components/navbar";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,

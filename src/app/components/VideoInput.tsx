@@ -1,10 +1,8 @@
 "use client";
 
 import React, {
-  useRef,
   useState,
   ChangeEvent,
-  useEffect,
   DragEvent,
 } from "react";
 import UploadCard from "./UploadCard";

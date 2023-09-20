@@ -1,5 +1,3 @@
-import { useState } from "react";
-import ThemeSwitcher from "./components/ThemeSwitcher";
 import "./globals.css";
 import Providers from "./providers";
 import type { Metadata } from "next";
@@ -17,9 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
