@@ -1,121 +1,388 @@
-
 export const data1 = [
-    {
-      revenue: 10400,
-      subscription: 240,
-    },
-    {
-      revenue: 14405,
-      subscription: 300,
-    },
-    {
-      revenue: 9400,
-      subscription: 200,
-    },
-    {
-      revenue: 8200,
-      subscription: 278,
-    },
-    {
-      revenue: 7000,
-      subscription: 189,
-    },
-    {
-      revenue: 9600,
-      subscription: 239,
-    },
-    {
-      revenue: 11244,
-      subscription: 278,
-    },
-    {
-      revenue: 26475,
-      subscription: 189,
-    },
-  ];
-  export const data2 = [
-    {
-      average: 400,
-      today: 240,
-    },
-    {
-      average: 300,
-      today: 139,
-    },
-    {
-      average: 200,
-      today: 980,
-    },
-    {
-      average: 278,
-      today: 390,
-    },
-    {
-      average: 189,
-      today: 480,
-    },
-    {
-      average: 239,
-      today: 380,
-    },
-    {
-      average: 349,
-      today: 430,
-    },
-  ];
-  export const data3 = [
-    {
-      name: "Jan",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Feb",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Mar",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Apr",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "May",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Jun",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Jul",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Aug",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Sep",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Oct",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Nov",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-    {
-      name: "Dec",
-      total: Math.floor(Math.random() * 5000) + 1000,
-    },
-  ];
+  {
+    revenue: 10400,
+    subscription: 240,
+  },
+  {
+    revenue: 14405,
+    subscription: 300,
+  },
+  {
+    revenue: 9400,
+    subscription: 200,
+  },
+  {
+    revenue: 8200,
+    subscription: 278,
+  },
+  {
+    revenue: 7000,
+    subscription: 189,
+  },
+  {
+    revenue: 9600,
+    subscription: 239,
+  },
+  {
+    revenue: 11244,
+    subscription: 278,
+  },
+  {
+    revenue: 26475,
+    subscription: 189,
+  },
+];
+export const data2 = [
+  {
+    average: 400,
+    today: 240,
+  },
+  {
+    average: 300,
+    today: 139,
+  },
+  {
+    average: 200,
+    today: 980,
+  },
+  {
+    average: 278,
+    today: 390,
+  },
+  {
+    average: 189,
+    today: 480,
+  },
+  {
+    average: 239,
+    today: 380,
+  },
+  {
+    average: 349,
+    today: 430,
+  },
+];
+export const data3 = [
+  {
+    name: "Jan",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Feb",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Mar",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Apr",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "May",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Jun",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Jul",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Aug",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Sep",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Oct",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Nov",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+  {
+    name: "Dec",
+    total: Math.floor(Math.random() * 5000) + 1000,
+  },
+];
 
-  //! user data
-  export const users = [
-    
-
-  ];
+//! user data
+export const users = [
+  {
+    id: 1,
+    name: "Jon Snow",
+    email: "JonSnow@Targaryen.Westeros",
+    role: "SuperAdmin",
+    status: "Active",
+    birthday: "1990-01-01",
+    address: "Winterfell",
+  },
+  {
+    id: 2,
+    name: "Arya Stark",
+    email: "AryaStark@stark.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1990-01-01",
+    address: "Winterfell",
+  },
+  {
+    id: 3,
+    name: "Tyrion Lannister",
+    email: "TyrionLannister@lannister.Westeros",
+    role: "User",
+    status: "Inactive",
+    birthday: "1992-03-15",
+    address: "Casterly Rock",
+  },
+  {
+    id: 4,
+    name: "Daenerys Targaryen",
+    email: "DaenerysTargaryen@Targaryen.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1985-05-29",
+    address: "Dragonstone",
+  },
+  {
+    id: 5,
+    name: "Cersei Lannister",
+    email: "CerseiLannister@lannister.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1978-12-03",
+    address: "King's Landing",
+  },
+  {
+    id: 6,
+    name: "Robb Stark",
+    email: "RobbStark@stark.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1988-08-20",
+    address: "Winterfell",
+  },
+  {
+    id: 7,
+    name: "Sansa Stark",
+    email: "SansaStark@stark.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1993-02-25",
+    address: "Winterfell",
+  },
+  {
+    id: 8,
+    name: "Jamie Lannister",
+    email: "JamieLannister@lannister.Westeros",
+    role: "Admin",
+    status: "Inactive",
+    birthday: "1976-11-28",
+    address: "Casterly Rock",
+  },
+  {
+    id: 9,
+    name: "Bran Stark",
+    email: "BranStark@stark.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1996-07-16",
+    address: "Winterfell",
+  },
+  {
+    id: 10,
+    name: "Theon Greyjoy",
+    email: "TheonGreyjoy@greyjoy.Westeros",
+    role: "User",
+    status: "Inactive",
+    birthday: "1990-09-08",
+    address: "Pyke",
+  },
+  {
+    id: 11,
+    name: "Catelyn Stark",
+    email: "CatelynStark@stark.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1970-06-18",
+    address: "Winterfell",
+  },
+  {
+    id: 12,
+    name: "Jorah Mormont",
+    email: "JorahMormont@mormont.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1965-03-04",
+    address: "Bear Island",
+  },
+  {
+    id: 13,
+    name: "Samwell Tarly",
+    email: "SamwellTarly@tarly.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1997-11-15",
+    address: "Horn Hill",
+  },
+  {
+    id: 14,
+    name: "Bronn",
+    email: "Bronn@mercenaries.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1980-09-22",
+    address: "King's Landing",
+  },
+  {
+    id: 15,
+    name: "Davos Seaworth",
+    email: "DavosSeaworth@seaworth.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1968-01-10",
+    address: "Dragonstone",
+  },
+  {
+    id: 16,
+    name: "Margaery Tyrell",
+    email: "MargaeryTyrell@tyrell.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1989-07-30",
+    address: "Highgarden",
+  },
+  {
+    id: 17,
+    name: "Brienne of Tarth",
+    email: "BrienneOfTarth@tarth.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1982-04-12",
+    address: "Evenfall Hall",
+  },
+  {
+    id: 18,
+    name: "Grey Worm",
+    email: "GreyWorm@unsullied.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1995-02-28",
+    address: "Meereen",
+  },
+  {
+    id: 19,
+    name: "Melisandre",
+    email: "Melisandre@redpriestess.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1983-09-09",
+    address: "Asshai",
+  },
+  {
+    id: 20,
+    name: "Podrick Payne",
+    email: "PodrickPayne@payne.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1993-12-07",
+    address: "King's Landing",
+  },
+  {
+    id: 21,
+    name: "Tormund Giantsbane",
+    email: "TormundGiantsbane@wildlings.BeyondTheWall",
+    role: "User",
+    status: "Active",
+    birthday: "1978-07-05",
+    address: "North of the Wall",
+  },
+  {
+    id: 22,
+    name: "Euron Greyjoy",
+    email: "EuronGreyjoy@greyjoy.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1973-11-11",
+    address: "Pyke",
+  },
+  {
+    id: 23,
+    name: "Ygritte",
+    email: "Ygritte@wildlings.BeyondTheWall",
+    role: "User",
+    status: "Active",
+    birthday: "1990-04-23",
+    address: "North of the Wall",
+  },
+  {
+    id: 24,
+    name: "Jaqen H'ghar",
+    email: "JaqenHghar@facelessmen.Braavos",
+    role: "Admin",
+    status: "Active",
+    birthday: "1985-12-30",
+    address: "Braavos",
+  },
+  {
+    id: 25,
+    name: "Shae",
+    email: "Shae@whores.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1992-02-19",
+    address: "King's Landing",
+  },
+  {
+    id: 26,
+    name: "Gilly",
+    email: "Gilly@wildlings.BeyondTheWall",
+    role: "User",
+    status: "Active",
+    birthday: "1993-09-14",
+    address: "Craster's Keep",
+  },
+  {
+    id: 27,
+    name: "Oberyn Martell",
+    email: "OberynMartell@martell.Dorne",
+    role: "Admin",
+    status: "Active",
+    birthday: "1970-03-20",
+    address: "Sunspear",
+  },
+  {
+    id: 28,
+    name: "Hodor",
+    email: "Hodor@hodor.Westeros",
+    role: "User",
+    status: "Active",
+    birthday: "1980-08-12",
+    address: "Winterfell",
+  },
+  {
+    id: 29,
+    name: "Beric Dondarrion",
+    email: "BericDondarrion@dondarrion.Westeros",
+    role: "Admin",
+    status: "Active",
+    birthday: "1987-06-27",
+    address: "Blackhaven",
+  },
+  {
+    id: 30,
+    name: "Missandei",
+    email: "Missandei@naath.Naath",
+    role: "User",
+    status: "Active",
+    birthday: "1994-01-15",
+    address: "Naath",
+  },
+];

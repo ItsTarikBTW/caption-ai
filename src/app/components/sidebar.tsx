@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import { Router } from "next/router";
+import Link from "next/link";
 const Sidebar = () => {
   return (
     <aside className="flex flex-col w-20 sm:w-48 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-      <a href="/" className="flex items-center justify-center">
+      <Link href="/" className="flex items-center justify-center">
         <Image
           height={100}
           width={100}
@@ -12,7 +14,7 @@ const Sidebar = () => {
           src="https://merakiui.com/images/logo.svg"
           alt=""
         />
-      </a>
+      </Link>
 
       <div className="flex flex-col justify-between flex-1 mt-6">
         <nav className="-mx-3 space-y-6 ">
@@ -21,9 +23,9 @@ const Sidebar = () => {
             <label className="hidden sm:inline-block px-3 text-xs text-gray-500 uppercase dark:text-gray-400">
               analytics
             </label>
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              href="#"
+              href="dashboard"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,11 +45,11 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Dashboard
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              href="#"
+              href="users"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +69,7 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Preformance
               </span>
-            </a>
+            </Link>
           </div>
 
           <Separator className="sm:hidden inline-block " />
@@ -75,7 +77,7 @@ const Sidebar = () => {
             <label className="hidden sm:inline-block px-3 text-xs text-gray-500 uppercase dark:text-gray-400">
               content
             </label>
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
@@ -97,9 +99,9 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Guides
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
@@ -121,9 +123,9 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Hotspots
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
@@ -145,7 +147,7 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Checklists
               </span>
-            </a>
+            </Link>
           </div>
 
           <Separator className="sm:hidden inline-block" />
@@ -153,7 +155,7 @@ const Sidebar = () => {
             <label className="hidden sm:inline-block px-3 text-xs text-gray-500 uppercase dark:text-gray-400">
               Customization
             </label>
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
@@ -175,9 +177,9 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Themes
               </span>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
@@ -204,7 +206,7 @@ const Sidebar = () => {
               <span className="hidden sm:inline-block mx-2 text-sm font-medium">
                 Setting
               </span>
-            </a>
+            </Link>
           </div>
         </nav>
       </div>

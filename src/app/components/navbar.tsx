@@ -69,7 +69,8 @@ export default function Navbar({
             </svg>
           )}
         </button>
-        <div className="flex items-center md:order-2">
+        <div className="flex items-center space-x-4">
+          <ThemeSwitcher />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button
@@ -122,12 +123,6 @@ export default function Navbar({
               </DropdownMenuGroup>
               <DropdownMenuSeparator />
               <DropdownMenuGroup>
-                <DropdownMenuItem>
-                  Light mode
-                  <DropdownMenuShortcut>
-                    <ThemeSwitcher />
-                  </DropdownMenuShortcut>
-                </DropdownMenuItem>
                 <DropdownMenuItem>Team</DropdownMenuItem>
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>

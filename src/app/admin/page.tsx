@@ -2,6 +2,7 @@
 import { Children, ReactNode, useState } from "react";
 import Sidebar from "../components/sidebar";
 import Navbar from "../components/navbar";
+
 export default function Admin({ children }: { children?: ReactNode }) {
   const [isSideOpen, setIsSideOpen] = useState<boolean>(true);
   const toggleSide = () => {
@@ -16,7 +17,7 @@ export default function Admin({ children }: { children?: ReactNode }) {
         {/* Navbar */}
         <Navbar isSideOpen={isSideOpen} toggleSide={toggleSide} />
 
-        <main className="flex-1 overflow-x-hidden overflow-y-auto">
+        <main className="relative flex-1 overflow-x-hidden overflow-y-auto p-2">
           {children || <div className="p-4">Content</div>}
         </main>
       </div>
