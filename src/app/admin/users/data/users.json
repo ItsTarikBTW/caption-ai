@@ -7,7 +7,7 @@
     "plan": "pro",
     "birthday": "1990-01-01",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "plan": "basic",
     "birthday": "1990-01-01",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "plan": "pro",
     "birthday": "1992-03-15",
     "address": "Casterly Rock",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "plan": "basic",
     "birthday": "1985-05-29",
     "address": "Dragonstone",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "plan": "basic",
     "birthday": "1978-12-03",
     "address": "King's Landing",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "plan": "basic",
     "birthday": "1988-08-20",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "plan": "basic",
     "birthday": "1993-02-25",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "plan": "pro",
     "birthday": "1976-11-28",
     "address": "Casterly Rock",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "plan": "pro",
     "birthday": "1996-07-16",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "plan": "pro",
     "birthday": "1990-09-08",
     "address": "Pyke",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "plan": "basic",
     "birthday": "1970-06-18",
     "address": "Winterfell",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "plan": "pro",
     "birthday": "1965-03-04",
     "address": "Bear Island",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "plan": "basic",
     "birthday": "1997-11-15",
     "address": "Horn Hill",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "plan": "basic",
     "birthday": "1980-09-22",
     "address": "King's Landing",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "plan": "basic",
     "birthday": "1968-01-10",
     "address": "Dragonstone",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "plan": "basic",
     "birthday": "1989-07-30",
     "address": "Highgarden",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "plan": "team",
     "birthday": "1982-04-12",
     "address": "Evenfall Hall",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "plan": "basic",
     "birthday": "1995-02-28",
     "address": "Meereen",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "plan": "basic",
     "birthday": "1983-09-09",
     "address": "Asshai",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "plan": "team",
     "birthday": "1993-12-07",
     "address": "King's Landing",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "plan": "basic",
     "birthday": "1978-07-05",
     "address": "North of the Wall",
-    "status":"suspended"
+    "status": "suspended"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "plan": "basic",
     "birthday": "1973-11-11",
     "address": "Pyke",
-    "status":"suspended"
+    "status": "suspended"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "plan": "basic",
     "birthday": "1990-04-23",
     "address": "North of the Wall",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "plan": "basic",
     "birthday": "1985-12-30",
     "address": "Braavos",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "plan": "basic",
     "birthday": "1992-02-19",
     "address": "King's Landing",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "plan": "basic",
     "birthday": "1993-09-14",
     "address": "Craster's Keep",
-    "status":"active"
+    "status": "active"
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "plan": "basic",
     "birthday": "1970-03-20",
     "address": "Sunspear",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "plan": "basic",
     "birthday": "1980-08-12",
     "address": "Winterfell",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "plan": "basic",
     "birthday": "1987-06-27",
     "address": "Blackhaven",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "plan": "basic",
     "birthday": "1994-01-15",
     "address": "Naath",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 31,
@@ -307,7 +307,7 @@
     "plan": "basic",
     "birthday": "1983-09-25",
     "address": "Winterfell",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
     "plan": "pro",
     "birthday": "1990-07-12",
     "address": "King's Landing",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "plan": "team",
     "birthday": "1992-11-29",
     "address": "King's Landing",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "plan": "basic",
     "birthday": "1980-08-12",
     "address": "Winterfell",
-    "status":"inactive"
+    "status": "inactive"
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "plan": "pro",
     "birthday": "1987-06-27",
     "address": "Blackhaven",
-    "status":"deleted"
+    "status": "deleted"
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "plan": "basic",
     "birthday": "1994-01-15",
     "address": "Naath",
-    "status":"deleted"
+    "status": "deleted"
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "plan": "pro",
     "birthday": "1965-03-04",
     "address": "Bear Island",
-    "status":"deleted"
+    "status": "deleted"
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "plan": "basic",
     "birthday": "1997-11-15",
     "address": "Horn Hill",
-    "status":"deleted"
+    "status": "deleted"
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
     "plan": "pro",
     "birthday": "1980-09-22",
     "address": "King's Landing",
-    "status":"banned"
+    "status": "banned"
   },
   {
     "id": 40,
@@ -397,6 +397,205 @@
     "plan": "basic",
     "birthday": "1968-01-10",
     "address": "Dragonstone",
-    "status":"suspended"
+    "status": "suspended"
+  },
+  {
+    "id": 41,
+    "name": "Aegon Targaryen",
+    "email": "AegonTargaryen@Targaryen.Westeros",
+    "role": "superadmin",
+    "plan": "pro",
+    "birthday": "1987-04-14",
+    "address": "Dragonstone",
+    "status": "active"
+  },
+  {
+    "id": 42,
+    "name": "Cersei Baratheon",
+    "email": "CerseiBaratheon@baratheon.Westeros",
+    "role": "admin",
+    "plan": "basic",
+    "birthday": "1980-03-26",
+    "address": "King's Landing",
+    "status": "active"
+  },
+  {
+    "id": 43,
+    "name": "Eddard Stark",
+    "email": "EddardStark@stark.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "birthday": "1963-12-05",
+    "address": "Winterfell",
+    "status": "active"
+  },
+  {
+    "id": 44,
+    "name": "Jorah Mormont Jr.",
+    "email": "JorahMormontJr@mormont.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "2000-09-20",
+    "address": "Bear Island",
+    "status": "active"
+  },
+  {
+    "id": 45,
+    "name": "Nymeria Sand",
+    "email": "NymeriaSand@sand.Dorne",
+    "role": "admin",
+    "plan": "pro",
+    "birthday": "1989-07-17",
+    "address": "Sunspear",
+    "status": "active"
+  },
+  {
+    "id": 46,
+    "name": "Bran Stark Jr.",
+    "email": "BranStarkJr@stark.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "2001-05-10",
+    "address": "Winterfell",
+    "status": "active"
+  },
+  {
+    "id": 47,
+    "name": "Tyrion Lannister Jr.",
+    "email": "TyrionLannisterJr@lannister.Westeros",
+    "role": "user",
+    "plan": "pro",
+    "birthday": "2002-03-08",
+    "address": "Casterly Rock",
+    "status": "active"
+  },
+  {
+    "id": 48,
+    "name": "Daario Naharis",
+    "email": "DaarioNaharis@mercenaries.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "1983-11-03",
+    "address": "Yunkai",
+    "status": "active"
+  },
+  {
+    "id": 49,
+    "name": "Drogon",
+    "email": "Drogon@dragons.Westeros",
+    "role": "admin",
+    "plan": "team",
+    "birthday": "2003-06-30",
+    "address": "Meereen",
+    "status": "active"
+  },
+  {
+    "id": 50,
+    "name": "Tyrion Targaryen",
+    "email": "TyrionTargaryen@Targaryen.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "birthday": "1982-08-15",
+    "address": "Dragonstone",
+    "status": "active"
+  },{
+    "id": 51,
+    "name": "Asha Greyjoy",
+    "email": "AshaGreyjoy@greyjoy.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "birthday": "1986-09-17",
+    "address": "Pyke",
+    "status": "active"
+  },
+  {
+    "id": 52,
+    "name": "Drogo",
+    "email": "Drogo@dothraki.VaesDothrak",
+    "role": "admin",
+    "plan": "basic",
+    "birthday": "1977-07-08",
+    "address": "Vaes Dothrak",
+    "status": "active"
+  },
+  {
+    "id": 53,
+    "name": "Catelyn Tully",
+    "email": "CatelynTully@tully.Riverrun",
+    "role": "admin",
+    "plan": "basic",
+    "birthday": "1972-02-28",
+    "address": "Riverrun",
+    "status": "active"
+  },
+  {
+    "id": 54,
+    "name": "Osha",
+    "email": "Osha@wildlings.BeyondTheWall",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "1985-06-12",
+    "address": "North of the Wall",
+    "status": "active"
+  },
+  {
+    "id": 55,
+    "name": "Stannis Baratheon",
+    "email": "StannisBaratheon@baratheon.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "birthday": "1971-11-05",
+    "address": "Dragonstone",
+    "status": "active"
+  },
+  {
+    "id": 56,
+    "name": "Talisa Stark",
+    "email": "TalisaStark@stark.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "1989-04-21",
+    "address": "Winterfell",
+    "status": "active"
+  },
+  {
+    "id": 57,
+    "name": "Grenn",
+    "email": "Grenn@nightswatch.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "1991-03-03",
+    "address": "Castle Black",
+    "status": "active"
+  },
+  {
+    "id": 58,
+    "name": "Lyanna Mormont",
+    "email": "LyannaMormont@mormont.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "2000-08-30",
+    "address": "Bear Island",
+    "status": "active"
+  },
+  {
+    "id": 59,
+    "name": "Qyburn",
+    "email": "Qyburn@maesters.Westeros",
+    "role": "admin",
+    "plan": "basic",
+    "birthday": "1960-12-19",
+    "address": "King's Landing",
+    "status": "active"
+  },
+  {
+    "id": 60,
+    "name": "Hizdahr zo Loraq",
+    "email": "HizdahrzoLoraq@meereen.Westeros",
+    "role": "user",
+    "plan": "basic",
+    "birthday": "1980-02-07",
+    "address": "Meereen",
+    "status": "active"
   }
 ]
