@@ -6,27 +6,27 @@ import { z } from "zod"
 
 import { columns } from "./components/columns"
 import { DataTable } from "./components/data-table"
-import { taskSchema } from "./data/schema"
+import { userSchema } from "./data/schema"
 import Admin from "../page"
 
 export const metadata: Metadata = {
-  title: "Tasks",
-  description: "A task and issue tracker build using Tanstack Table.",
+  title: "Users",
+  description: "A user and issue tracker build using Tanstack Table.",
 }
 
-// Simulate a database read for tasks.
-async function getTasks() {
+// Simulate a database read for users.
+async function getUsers() {
   const data = await fs.readFile(
-    path.join(process.cwd(), "src/app/admin/users/data/tasks.json")
+    path.join(process.cwd(), "src/app/admin/users/data/users.json")
   )
 
-  const tasks = JSON.parse(data.toString())
+  const users = JSON.parse(data.toString())
 
-  return z.array(taskSchema).parse(tasks)
+  return z.array(userSchema).parse(users)
 }
 
-export default async function TaskPage() {
-  const tasks = await getTasks()
+export default async function UserPage() {
+  const users = await getUsers()
 
   return (
     <Admin>
@@ -38,11 +38,11 @@ export default async function TaskPage() {
           <div>
             <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
             <p className="text-muted-foreground">
-              Here&apos;s a list of your tasks for this month!
+              Here&apos;s a list of your users for this month!
             </p>
           </div>
         </div>
-        <DataTable data={tasks} columns={columns} />
+        <DataTable data={users} columns={columns} />
       </div>
     </Admin>
   )

@@ -8,64 +8,64 @@ import {
   QuestionMarkCircledIcon,
   StopwatchIcon,
 } from "@radix-ui/react-icons"
-
-export const labels = [
+//role = lable [superadmin, admin, user]
+export const roles = [
   {
-    value: "bug",
-    label: "Bug",
+    value: "superadmin",
+    label: "Super Admin",
   },
   {
-    value: "feature",
-    label: "Feature",
+    value: "admin",
+    label: "Admin",
   },
   {
-    value: "documentation",
-    label: "Documentation",
+    value: "user",
+    label: "User",
   },
 ]
-
+//status = statuses [active, inactive, banned  , deleted, suspended ]
 export const statuses = [
   {
-    value: "backlog",
-    label: "Backlog",
+    value: "active",
+    label: "Active",
     icon: QuestionMarkCircledIcon,
   },
   {
-    value: "todo",
-    label: "Todo",
+    value: "inactive",
+    label: "Inactive",
     icon: CircleIcon,
   },
   {
-    value: "in progress",
-    label: "In Progress",
+    value: "banned",
+    label: "Banned",
     icon: StopwatchIcon,
   },
   {
-    value: "done",
-    label: "Done",
+    value: "suspended",
+    label: "Suspended",
     icon: CheckCircledIcon,
   },
   {
-    value: "canceled",
-    label: "Canceled",
+    value: "deleted",
+    label: "Deleted",
     icon: CrossCircledIcon,
   },
 ]
-
-export const priorities = [
+//proirity = plan [ basic, pro, team] 
+export const plans = [
   {
-    label: "Low",
-    value: "low",
+    value: "basic",
+    label: "Basic",
     icon: ArrowDownIcon,
   },
   {
-    label: "Medium",
-    value: "medium",
+    value: "pro",
+    label: "Pro",
     icon: ArrowRightIcon,
   },
   {
-    label: "High",
-    value: "high",
+    value: "team",
+    label: "Team",
     icon: ArrowUpIcon,
   },
 ]
