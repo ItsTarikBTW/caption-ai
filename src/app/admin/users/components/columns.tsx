@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { ColumnDef } from "@tanstack/react-table"
+import { ColumnDef } from "@tanstack/react-table";
 
-import { Badge } from "@/components/ui/badge"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Badge } from "@/components/ui/badge";
+import { Checkbox } from "@/components/ui/checkbox";
 
-import { roles, plans, statuses } from "../data/data"
-import { User } from "../data/schema"
-import { DataTableColumnHeader } from "./data-table-column-header"
-import { DataTableRowActions } from "./data-table-row-actions"
+import { roles, plans, statuses } from "../data/data";
+import { User } from "../data/schema";
+import { DataTableColumnHeader } from "./data-table-column-header";
+import { DataTableRowActions } from "./data-table-row-actions";
 
 export const columns: ColumnDef<User>[] = [
   {
@@ -37,7 +37,11 @@ export const columns: ColumnDef<User>[] = [
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="ID" />
     ),
-    cell: ({ row }) => <div className="w-[20px] flex items-center justify-center">{row.getValue("id")}</div>,
+    cell: ({ row }) => (
+      <div className="w-[20px] flex items-center justify-center">
+        {row.getValue("id")}
+      </div>
+    ),
     enableSorting: false,
     enableHiding: false,
   },
@@ -47,16 +51,23 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="Name" />
     ),
     cell: ({ row }) => {
-      const role = roles.find((role) => role.value === row.original.role)
+      const role = roles.find((role) => role.value === row.original.role);
 
       return (
         <div className="flex space-x-2">
-          {role && <Badge variant="outline">{role.label}</Badge>}
-          <span className="max-w-[120px] truncate font-medium">
+          {role && (
+            <Badge
+              className="whitespace-nowrap hidden lg:inline-block"
+              variant="outline"
+            >
+              {role.label}
+            </Badge>
+          )}
+          <span className="w-[75px] lg:w-[150px] truncate font-medium">
             {row.getValue("name")}
           </span>
         </div>
-      )
+      );
     },
   },
   {
@@ -72,7 +83,9 @@ export const columns: ColumnDef<User>[] = [
     ),
     cell: ({ row }) => (
       <div className="flex space-x-2">
-        <span className="max-w-[200px] truncate">{row.getValue("email")}</span>
+        <span className="w-[150px] lg:w-[300px] truncate">
+          {row.getValue("email")}
+        </span>
       </div>
     ),
   },
@@ -84,10 +97,10 @@ export const columns: ColumnDef<User>[] = [
     cell: ({ row }) => {
       const status = statuses.find(
         (status) => status.value === row.getValue("status")
-      )
+      );
 
       if (!status) {
-        return null
+        return null;
       }
 
       return (
@@ -97,10 +110,10 @@ export const columns: ColumnDef<User>[] = [
           )}
           <span>{status.label}</span>
         </div>
-      )
+      );
     },
     filterFn: (row, id, value) => {
-      return value.includes(row.getValue(id))
+      return value.includes(row.getValue(id));
     },
   },
   {
@@ -109,12 +122,10 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="Plan" />
     ),
     cell: ({ row }) => {
-      const plan = plans.find(
-        (plan) => plan.value === row.getValue("plan")
-      )
+      const plan = plans.find((plan) => plan.value === row.getValue("plan"));
 
       if (!plan) {
-        return null
+        return null;
       }
 
       return (
@@ -124,14 +135,14 @@ export const columns: ColumnDef<User>[] = [
           )}
           <span>{plan.label}</span>
         </div>
-      )
+      );
     },
     filterFn: (row, id, value) => {
-      return value.includes(row.getValue(id))
+      return value.includes(row.getValue(id));
     },
   },
   {
     id: "actions",
     cell: ({ row }) => <DataTableRowActions row={row} />,
   },
-]
+];

@@ -1,7 +1,6 @@
 import { promises as fs } from "fs"
 import path from "path"
 import { Metadata } from "next"
-import Image from "next/image"
 import { z } from "zod"
 
 import { columns } from "./components/columns"
@@ -31,7 +30,7 @@ export default async function UserPage() {
   return (
     <Admin>
       <div className="md:hidden">
-        too small
+        screen to small 😒🤏
       </div>
       <div className="hidden flex-1 flex-col space-y-8 p-8 md:flex">
         <div className="flex items-center justify-between space-y-2">
