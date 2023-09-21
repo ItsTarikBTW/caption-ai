@@ -181,6 +181,27 @@ const Sidebar = () => {
 
             <Link
               className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+              href="/admin/dashboard/forms"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24"
+                strokeWidth={1.5} stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+                />
+              </svg>
+
+              <span className="hidden sm:inline-block mx-2 text-sm font-medium">
+                Forms
+              </span>
+            </Link>
+            <Link
+              className="flex items-center justify-center sm:justify-normal px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
               href="#"
             >
               <svg
