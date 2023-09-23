@@ -27,3 +27,8 @@ export type DateFormValue = {
 export type FileUploadValue = {
     file: File | null;
 }
+
+export type MultiSelectValues = {
+    options: string[];
+    selectedOptions: string[];
+}

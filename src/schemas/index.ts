@@ -34,3 +34,7 @@ export const dateSchema = yup.object().shape({
 export const fileUploadSchema = yup.object().shape({
     file: yup.mixed().required("required")
 });
+
+export const multiSelectSchema = yup.object().shape({
+    options: yup.string().required("required")
+});
