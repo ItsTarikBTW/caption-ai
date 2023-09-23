@@ -1,4 +1,49 @@
+"use client"
+
+import { FormikProps, useFormik } from "formik";
+import { MultiSelectValues } from "@/types/forms";
+import { multiSelectSchema } from "@/schemas";
+import { ChangeEvent } from "react";
+
 const MultiSelectDropdown = () => {
+
+    const { 
+        handleSubmit,
+        handleBlur,
+        errors,
+        values,
+        touched,
+        isSubmitting,
+        setValues
+    }: FormikProps<MultiSelectValues> = useFormik<MultiSelectValues>({
+        initialValues: {
+            options: ["Development", "Customer serves", "Sponsorship"],
+            selectedOptions: ["Design"]
+        },
+        validationSchema: multiSelectSchema,
+        // enableReinitialize: true,
+        onSubmit: (values, actions) => {
+
+        }
+    });
+
+
+    const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+        
+        let index = event.target.options.selectedIndex;
+
+        let temp_options = values.options;
+        let temp_selectedOptions = values.selectedOptions;
+
+        temp_selectedOptions.push(values.options[index]);
+        temp_options.splice(index, 1);
+
+        setValues({
+            options: temp_options,
+            selectedOptions: temp_selectedOptions
+        });
+    }
+
     return (
         <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
@@ -13,52 +58,47 @@ const MultiSelectDropdown = () => {
                     </label>
                     <div className="relative z-20 w-full rounded border border-stroke p-1.5 pr-8 font-medium outline-none transition focus:border-primary active:border-primary dark:border-form-strokedark dark:bg-form-input">
                         <div className="flex flex-wrap items-center">
-                            <span className="m-1.5 flex items-center justify-center rounded border-[.5px] border-stroke bg-gray py-1.5 px-2.5 text-sm font-medium dark:border-strokedark dark:bg-white/30">
-                                Design
-                                <span className="cursor-pointer pl-2 hover:text-danger">
-                                    <svg
-                                        width="12"
-                                        height="12"
-                                        viewBox="0 0 12 12"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            clipRule="evenodd"
-                                            d="M9.35355 3.35355C9.54882 3.15829 9.54882 2.84171 9.35355 2.64645C9.15829 2.45118 8.84171 2.45118 8.64645 2.64645L6 5.29289L3.35355 2.64645C3.15829 2.45118 2.84171 2.45118 2.64645 2.64645C2.45118 2.84171 2.45118 3.15829 2.64645 3.35355L5.29289 6L2.64645 8.64645C2.45118 8.84171 2.45118 9.15829 2.64645 9.35355C2.84171 9.54882 3.15829 9.54882 3.35355 9.35355L6 6.70711L8.64645 9.35355C8.84171 9.54882 9.15829 9.54882 9.35355 9.35355C9.54882 9.15829 9.54882 8.84171 9.35355 8.64645L6.70711 6L9.35355 3.35355Z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
-                                </span>
-                            </span>
-                            <span className="m-1.5 flex items-center justify-center rounded border-[.5px] border-stroke bg-gray py-1.5 px-2.5 text-sm font-medium dark:border-strokedark dark:bg-white/30">
-                                Development
-                                <span className="cursor-pointer pl-2 hover:text-danger">
-                                    <svg
-                                        width="12"
-                                        height="12"
-                                        viewBox="0 0 12 12"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            clipRule="evenodd"
-                                            d="M9.35355 3.35355C9.54882 3.15829 9.54882 2.84171 9.35355 2.64645C9.15829 2.45118 8.84171 2.45118 8.64645 2.64645L6 5.29289L3.35355 2.64645C3.15829 2.45118 2.84171 2.45118 2.64645 2.64645C2.45118 2.84171 2.45118 3.15829 2.64645 3.35355L5.29289 6L2.64645 8.64645C2.45118 8.84171 2.45118 9.15829 2.64645 9.35355C2.84171 9.54882 3.15829 9.54882 3.35355 9.35355L6 6.70711L8.64645 9.35355C8.84171 9.54882 9.15829 9.54882 9.35355 9.35355C9.54882 9.15829 9.54882 8.84171 9.35355 8.64645L6.70711 6L9.35355 3.35355Z"
-                                            fill="currentColor"
-                                        ></path>
-                                    </svg>
-                                </span>
-                            </span>
+                            {values.selectedOptions.map((option) => {
+                                return (
+                                    <span key={option} className="m-1.5 flex items-center justify-center rounded border-[.5px] border-stroke bg-gray py-1.5 px-2.5 text-sm font-medium dark:border-strokedark dark:bg-white/30">
+                                        {option}
+                                        <span className="cursor-pointer pl-2 hover:text-danger">
+                                            <svg
+                                                width="12"
+                                                height="12"
+                                                viewBox="0 0 12 12"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fillRule="evenodd"
+                                                    clipRule="evenodd"
+                                                    d="M9.35355 3.35355C9.54882 3.15829 9.54882 2.84171 9.35355 2.64645C9.15829 2.45118 8.84171 2.45118 8.64645 2.64645L6 5.29289L3.35355 2.64645C3.15829 2.45118 2.84171 2.45118 2.64645 2.64645C2.45118 2.84171 2.45118 3.15829 2.64645 3.35355L5.29289 6L2.64645 8.64645C2.45118 8.84171 2.45118 9.15829 2.64645 9.35355C2.84171 9.54882 3.15829 9.54882 3.35355 9.35355L6 6.70711L8.64645 9.35355C8.84171 9.54882 9.15829 9.54882 9.35355 9.35355C9.54882 9.15829 9.54882 8.84171 9.35355 8.64645L6.70711 6L9.35355 3.35355Z"
+                                                    fill="currentColor"
+                                                ></path>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                );
+                            })}
                         </div>
                         <select
                             name=""
                             id=""
                             className="absolute top-0 left-0 z-20 h-full w-full bg-transparent opacity-0"
+                            onChange={handleChange}
                         >
-                            <option value="">Option</option>
-                            <option value="">Option</option>
+                            {values.options.map((option) => {
+                                return (
+                                    <option
+                                        className={`text-gray-500`}
+                                        key={option}
+                                        value={option}
+                                    >
+                                        {option}
+                                    </option>
+                                );
+                            })}
                         </select>
                         <span className="absolute top-1/2 right-4 z-10 -translate-y-1/2">
                             <svg
