@@ -8,7 +8,7 @@ import {
   QuestionMarkCircledIcon,
   StopwatchIcon,
 } from "@radix-ui/react-icons"
-//role = lable [superadmin, admin, user]
+
 export const roles = [
   {
     value: "superadmin",
@@ -23,12 +23,12 @@ export const roles = [
     label: "User",
   },
 ]
-//status = statuses [active, inactive, banned  , deleted, suspended ]
+
 export const statuses = [
   {
     value: "active",
     label: "Active",
-    icon: QuestionMarkCircledIcon,
+    icon:  CheckCircledIcon,
   },
   {
     value: "inactive",
@@ -38,12 +38,12 @@ export const statuses = [
   {
     value: "banned",
     label: "Banned",
-    icon: StopwatchIcon,
+    icon:  QuestionMarkCircledIcon,
   },
   {
     value: "suspended",
     label: "Suspended",
-    icon: CheckCircledIcon,
+    icon: StopwatchIcon,
   },
   {
     value: "deleted",
@@ -51,7 +51,7 @@ export const statuses = [
     icon: CrossCircledIcon,
   },
 ]
-//proirity = plan [ basic, pro, team] 
+
 export const plans = [
   {
     value: "basic",

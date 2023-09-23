@@ -11,12 +11,11 @@ const users = Array.from({ length: 100 }, () => ({
   role: faker.helpers.arrayElement(roles).value,
   plan: faker.helpers.arrayElement(plans).value,
   email: faker.internet.email(),
-  birthday: faker.date.past().toISOString().split("T")[0],
   address: faker.address.streetAddress(),
 }))
 
 fs.writeFileSync(
-  path.join(__dirname, "users.json"),
+  path.join( __dirname, '../../../data/users.json'),
   JSON.stringify(users, null, 2)
 )
 

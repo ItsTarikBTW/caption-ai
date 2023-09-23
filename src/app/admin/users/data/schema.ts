@@ -9,7 +9,6 @@ export const userSchema = z.object({
   role: z.string(),
   plan: z.string(),
   email: z.string(),
-  birthday: z.string(),
   address: z.string(),
   
 })

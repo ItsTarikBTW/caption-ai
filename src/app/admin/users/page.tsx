@@ -13,14 +13,10 @@ export const metadata: Metadata = {
   description: "A user and issue tracker build using Tanstack Table.",
 }
 
-// Simulate a database read for users.
 async function getUsers() {
-  const data = await fs.readFile(
-    path.join(process.cwd(), "src/app/admin/users/data/users.json")
-  )
-
-  const users = JSON.parse(data.toString())
-
+  const response = await fetch(`http://localhost:3000/api/users?cache=${Date.now()}`);
+  const users = await response.json();
+  
   return z.array(userSchema).parse(users)
 }
 
@@ -29,15 +25,7 @@ export default async function UserPage() {
 
   return (
     <Admin>
-      <div className="hidden flex-1 flex-col space-y-8 p-8 md:flex">
-        <div className="flex items-center justify-between space-y-2">
-          <div>
-            <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
-            <p className="text-muted-foreground">
-              Here&apos;s a list of your users for this month!
-            </p>
-          </div>
-        </div>
+      <div className="px-6 pt-1">
         <DataTable data={users} columns={columns} />
       </div>
     </Admin>

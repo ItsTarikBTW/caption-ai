@@ -1,11 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Jon Snow",
+    "name": "Jon Snows",
     "email": "JonSnow@Targaryen.Westeros",
     "role": "superadmin",
     "plan": "pro",
-    "birthday": "1990-01-01",
     "address": "Winterfell",
     "status": "active"
   },
@@ -15,7 +14,6 @@
     "email": "AryaStark@stark.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1990-01-01",
     "address": "Winterfell",
     "status": "active"
   },
@@ -25,7 +23,6 @@
     "email": "TyrionLannister@lannister.Westeros",
     "role": "user",
     "plan": "pro",
-    "birthday": "1992-03-15",
     "address": "Casterly Rock",
     "status": "active"
   },
@@ -35,7 +32,6 @@
     "email": "DaenerysTargaryen@Targaryen.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1985-05-29",
     "address": "Dragonstone",
     "status": "active"
   },
@@ -45,7 +41,6 @@
     "email": "CerseiLannister@lannister.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1978-12-03",
     "address": "King's Landing",
     "status": "active"
   },
@@ -55,7 +50,6 @@
     "email": "RobbStark@stark.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1988-08-20",
     "address": "Winterfell",
     "status": "active"
   },
@@ -65,7 +59,6 @@
     "email": "SansaStark@stark.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1993-02-25",
     "address": "Winterfell",
     "status": "active"
   },
@@ -75,7 +68,6 @@
     "email": "JamieLannister@lannister.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1976-11-28",
     "address": "Casterly Rock",
     "status": "active"
   },
@@ -85,7 +77,6 @@
     "email": "BranStark@stark.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1996-07-16",
     "address": "Winterfell",
     "status": "active"
   },
@@ -95,7 +86,6 @@
     "email": "TheonGreyjoy@greyjoy.Westeros",
     "role": "user",
     "plan": "pro",
-    "birthday": "1990-09-08",
     "address": "Pyke",
     "status": "active"
   },
@@ -105,7 +95,6 @@
     "email": "CatelynStark@stark.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1970-06-18",
     "address": "Winterfell",
     "status": "active"
   },
@@ -115,7 +104,6 @@
     "email": "JorahMormont@mormont.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1965-03-04",
     "address": "Bear Island",
     "status": "active"
   },
@@ -125,7 +113,6 @@
     "email": "SamwellTarly@tarly.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1997-11-15",
     "address": "Horn Hill",
     "status": "active"
   },
@@ -135,7 +122,6 @@
     "email": "Bronn@mercenaries.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1980-09-22",
     "address": "King's Landing",
     "status": "active"
   },
@@ -145,7 +131,6 @@
     "email": "DavosSeaworth@seaworth.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1968-01-10",
     "address": "Dragonstone",
     "status": "active"
   },
@@ -155,7 +140,6 @@
     "email": "MargaeryTyrell@tyrell.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1989-07-30",
     "address": "Highgarden",
     "status": "active"
   },
@@ -165,7 +149,6 @@
     "email": "BrienneOfTarth@tarth.Westeros",
     "role": "admin",
     "plan": "team",
-    "birthday": "1982-04-12",
     "address": "Evenfall Hall",
     "status": "active"
   },
@@ -175,7 +158,6 @@
     "email": "GreyWorm@unsullied.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1995-02-28",
     "address": "Meereen",
     "status": "active"
   },
@@ -185,7 +167,6 @@
     "email": "Melisandre@redpriestess.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1983-09-09",
     "address": "Asshai",
     "status": "active"
   },
@@ -195,7 +176,6 @@
     "email": "PodrickPayne@payne.Westeros",
     "role": "user",
     "plan": "team",
-    "birthday": "1993-12-07",
     "address": "King's Landing",
     "status": "active"
   },
@@ -205,7 +185,6 @@
     "email": "TormundGiantsbane@wildlings.BeyondTheWall",
     "role": "user",
     "plan": "basic",
-    "birthday": "1978-07-05",
     "address": "North of the Wall",
     "status": "suspended"
   },
@@ -215,7 +194,6 @@
     "email": "EuronGreyjoy@greyjoy.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1973-11-11",
     "address": "Pyke",
     "status": "suspended"
   },
@@ -225,7 +203,6 @@
     "email": "Ygritte@wildlings.BeyondTheWall",
     "role": "user",
     "plan": "basic",
-    "birthday": "1990-04-23",
     "address": "North of the Wall",
     "status": "active"
   },
@@ -235,7 +212,6 @@
     "email": "JaqenHghar@facelessmen.Braavos",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1985-12-30",
     "address": "Braavos",
     "status": "active"
   },
@@ -245,7 +221,6 @@
     "email": "Shae@whores.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1992-02-19",
     "address": "King's Landing",
     "status": "active"
   },
@@ -255,7 +230,6 @@
     "email": "Gilly@wildlings.BeyondTheWall",
     "role": "user",
     "plan": "basic",
-    "birthday": "1993-09-14",
     "address": "Craster's Keep",
     "status": "active"
   },
@@ -265,7 +239,6 @@
     "email": "OberynMartell@martell.Dorne",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1970-03-20",
     "address": "Sunspear",
     "status": "inactive"
   },
@@ -275,7 +248,6 @@
     "email": "Hodor@hodor.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1980-08-12",
     "address": "Winterfell",
     "status": "inactive"
   },
@@ -285,7 +257,6 @@
     "email": "BericDondarrion@dondarrion.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1987-06-27",
     "address": "Blackhaven",
     "status": "inactive"
   },
@@ -295,7 +266,6 @@
     "email": "Missandei@naath.Naath",
     "role": "user",
     "plan": "basic",
-    "birthday": "1994-01-15",
     "address": "Naath",
     "status": "inactive"
   },
@@ -305,7 +275,6 @@
     "email": "RamsayBolton@bolton.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1983-09-25",
     "address": "Winterfell",
     "status": "inactive"
   },
@@ -315,7 +284,6 @@
     "email": "Gendry@baratheon.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1990-07-12",
     "address": "King's Landing",
     "status": "inactive"
   },
@@ -325,79 +293,71 @@
     "email": "JoffreyBaratheon@baratheon.Westeros",
     "role": "admin",
     "plan": "team",
-    "birthday": "1992-11-29",
     "address": "King's Landing",
     "status": "inactive"
   },
   {
     "id": 34,
-    "name": "Hodor",
-    "email": "Hodor@hodor.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1980-08-12",
-    "address": "Winterfell",
-    "status": "inactive"
+    "name": "Asha Greyjoy",
+    "email": "AshaGreyjoy@greyjoy.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "address": "Pyke",
+    "status": "active"
   },
   {
     "id": 35,
-    "name": "Beric Dondarrion",
-    "email": "BericDondarrion@dondarrion.Westeros",
+    "name": "Drogo",
+    "email": "Drogo@dothraki.VaesDothrak",
     "role": "admin",
-    "plan": "pro",
-    "birthday": "1987-06-27",
-    "address": "Blackhaven",
-    "status": "deleted"
+    "plan": "basic",
+    "address": "Vaes Dothrak",
+    "status": "active"
   },
   {
     "id": 36,
-    "name": "Missandei",
-    "email": "Missandei@naath.Naath",
-    "role": "user",
+    "name": "Catelyn Tully",
+    "email": "CatelynTully@tully.Riverrun",
+    "role": "admin",
     "plan": "basic",
-    "birthday": "1994-01-15",
-    "address": "Naath",
-    "status": "deleted"
+    "address": "Riverrun",
+    "status": "active"
   },
   {
     "id": 37,
-    "name": "Jorah Mormont",
-    "email": "JorahMormont@mormont.Westeros",
-    "role": "admin",
-    "plan": "pro",
-    "birthday": "1965-03-04",
-    "address": "Bear Island",
-    "status": "deleted"
+    "name": "Osha",
+    "email": "Osha@wildlings.BeyondTheWall",
+    "role": "user",
+    "plan": "basic",
+    "address": "North of the Wall",
+    "status": "active"
   },
   {
     "id": 38,
-    "name": "Samwell Tarly",
-    "email": "SamwellTarly@tarly.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1997-11-15",
-    "address": "Horn Hill",
-    "status": "deleted"
+    "name": "Stannis Baratheon",
+    "email": "StannisBaratheon@baratheon.Westeros",
+    "role": "admin",
+    "plan": "pro",
+    "address": "Dragonstone",
+    "status": "active"
   },
   {
     "id": 39,
-    "name": "Bronn",
-    "email": "Bronn@mercenaries.Westeros",
+    "name": "Talisa Stark",
+    "email": "TalisaStark@stark.Westeros",
     "role": "user",
-    "plan": "pro",
-    "birthday": "1980-09-22",
-    "address": "King's Landing",
-    "status": "banned"
+    "plan": "basic",
+    "address": "Winterfell",
+    "status": "active"
   },
   {
     "id": 40,
-    "name": "Davos Seaworth",
-    "email": "DavosSeaworth@seaworth.Westeros",
-    "role": "admin",
+    "name": "Grenn",
+    "email": "Grenn@nightswatch.Westeros",
+    "role": "user",
     "plan": "basic",
-    "birthday": "1968-01-10",
-    "address": "Dragonstone",
-    "status": "suspended"
+    "address": "Castle Black",
+    "status": "active"
   },
   {
     "id": 41,
@@ -405,7 +365,6 @@
     "email": "AegonTargaryen@Targaryen.Westeros",
     "role": "superadmin",
     "plan": "pro",
-    "birthday": "1987-04-14",
     "address": "Dragonstone",
     "status": "active"
   },
@@ -415,7 +374,6 @@
     "email": "CerseiBaratheon@baratheon.Westeros",
     "role": "admin",
     "plan": "basic",
-    "birthday": "1980-03-26",
     "address": "King's Landing",
     "status": "active"
   },
@@ -425,17 +383,15 @@
     "email": "EddardStark@stark.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1963-12-05",
     "address": "Winterfell",
     "status": "active"
   },
   {
     "id": 44,
-    "name": "Jorah Mormont Jr.",
-    "email": "JorahMormontJr@mormont.Westeros",
+    "name": "Lyanna Mormont",
+    "email": "LyannaMormont@mormont.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "2000-09-20",
     "address": "Bear Island",
     "status": "active"
   },
@@ -445,29 +401,26 @@
     "email": "NymeriaSand@sand.Dorne",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1989-07-17",
     "address": "Sunspear",
     "status": "active"
   },
   {
     "id": 46,
-    "name": "Bran Stark Jr.",
-    "email": "BranStarkJr@stark.Westeros",
-    "role": "user",
+    "name": "Qyburn",
+    "email": "Qyburn@maesters.Westeros",
+    "role": "admin",
     "plan": "basic",
-    "birthday": "2001-05-10",
-    "address": "Winterfell",
+    "address": "King's Landing",
     "status": "active"
   },
   {
     "id": 47,
-    "name": "Tyrion Lannister Jr.",
-    "email": "TyrionLannisterJr@lannister.Westeros",
+    "name": "Hizdahr zo Loraq",
+    "email": "HizdahrzoLoraq@meereen.Westeros",
     "role": "user",
-    "plan": "pro",
-    "birthday": "2002-03-08",
-    "address": "Casterly Rock",
-    "status": "active"
+    "plan": "basic",
+    "address": "Meereen",
+    "status": "deleted"
   },
   {
     "id": 48,
@@ -475,9 +428,8 @@
     "email": "DaarioNaharis@mercenaries.Westeros",
     "role": "user",
     "plan": "basic",
-    "birthday": "1983-11-03",
     "address": "Yunkai",
-    "status": "active"
+    "status": "suspended"
   },
   {
     "id": 49,
@@ -485,9 +437,8 @@
     "email": "Drogon@dragons.Westeros",
     "role": "admin",
     "plan": "team",
-    "birthday": "2003-06-30",
     "address": "Meereen",
-    "status": "active"
+    "status": "banned"
   },
   {
     "id": 50,
@@ -495,107 +446,16 @@
     "email": "TyrionTargaryen@Targaryen.Westeros",
     "role": "admin",
     "plan": "pro",
-    "birthday": "1982-08-15",
     "address": "Dragonstone",
-    "status": "active"
-  },{
-    "id": 51,
-    "name": "Asha Greyjoy",
-    "email": "AshaGreyjoy@greyjoy.Westeros",
-    "role": "admin",
+    "status": "banned"
+  },
+  {
+    "id": 69,
+    "name": "Jon Snow",
+    "email": "JonSnow@Targaryen.Westeros",
+    "role": "superadmin",
     "plan": "pro",
-    "birthday": "1986-09-17",
-    "address": "Pyke",
-    "status": "active"
-  },
-  {
-    "id": 52,
-    "name": "Drogo",
-    "email": "Drogo@dothraki.VaesDothrak",
-    "role": "admin",
-    "plan": "basic",
-    "birthday": "1977-07-08",
-    "address": "Vaes Dothrak",
-    "status": "active"
-  },
-  {
-    "id": 53,
-    "name": "Catelyn Tully",
-    "email": "CatelynTully@tully.Riverrun",
-    "role": "admin",
-    "plan": "basic",
-    "birthday": "1972-02-28",
-    "address": "Riverrun",
-    "status": "active"
-  },
-  {
-    "id": 54,
-    "name": "Osha",
-    "email": "Osha@wildlings.BeyondTheWall",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1985-06-12",
-    "address": "North of the Wall",
-    "status": "active"
-  },
-  {
-    "id": 55,
-    "name": "Stannis Baratheon",
-    "email": "StannisBaratheon@baratheon.Westeros",
-    "role": "admin",
-    "plan": "pro",
-    "birthday": "1971-11-05",
-    "address": "Dragonstone",
-    "status": "active"
-  },
-  {
-    "id": 56,
-    "name": "Talisa Stark",
-    "email": "TalisaStark@stark.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1989-04-21",
     "address": "Winterfell",
-    "status": "active"
-  },
-  {
-    "id": 57,
-    "name": "Grenn",
-    "email": "Grenn@nightswatch.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1991-03-03",
-    "address": "Castle Black",
-    "status": "active"
-  },
-  {
-    "id": 58,
-    "name": "Lyanna Mormont",
-    "email": "LyannaMormont@mormont.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "2000-08-30",
-    "address": "Bear Island",
-    "status": "active"
-  },
-  {
-    "id": 59,
-    "name": "Qyburn",
-    "email": "Qyburn@maesters.Westeros",
-    "role": "admin",
-    "plan": "basic",
-    "birthday": "1960-12-19",
-    "address": "King's Landing",
-    "status": "active"
-  },
-  {
-    "id": 60,
-    "name": "Hizdahr zo Loraq",
-    "email": "HizdahrzoLoraq@meereen.Westeros",
-    "role": "user",
-    "plan": "basic",
-    "birthday": "1980-02-07",
-    "address": "Meereen",
     "status": "active"
   }
 ]
