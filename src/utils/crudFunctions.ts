@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-interface User {
+type User = {
   id: number;
   name: string;
   email: string;
@@ -37,6 +37,7 @@ export function createUser(user: User) {
   const data = readData();
   data.push(user);
   writeData(data);
+  return user.id;
 }
 
 export function updateUser(updatedUser: User) {
