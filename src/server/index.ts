@@ -1,4 +1,10 @@
-import { getAllUsers, getUserById, createUser } from "@/utils/crudFunctions";
+import {
+  getAllUsers,
+  getUserById,
+  createUser,
+  deleteUser,
+  updateUser,
+} from "@/utils/crudFunctions";
 import { publicProcedure, router } from "./trpc";
 import { type } from "os";
 import { Input } from "@/components/ui/input";
@@ -11,34 +17,76 @@ export const appRouter = router({
     return users;
   }),
 
-  getUserById: publicProcedure.input(z.object({
-    id: z.number(),
-  })).query(({ input }) => {
-    const { id } = input;
-    if (!id) {
-      throw new Error("Id is required");
-    }
-    console.log("id", id);
-    const user = getUserById(id);
+  getUserById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+      })
+    )
+    .query(({ input }) => {
+      const { id } = input;
+      if (!id) {
+        throw new Error("Id is required");
+      }
+      const user = getUserById(id);
 
-    return user;
-  }),
+      return user;
+    }),
+  deleteUser: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+      })
+    )
+    .mutation(({ input }) => {
+      const { id } = input;
+      if (!id) {
+        throw new Error("Id is required");
+      }
+      deleteUser(id);
 
+      // You can return a success message or any relevant data here if needed
+      return { success: true };
+    }),
   createUser: publicProcedure
     .input(
       z.object({
         id: z.number(),
         name: z.string(),
-        email: z.string(),
+        email: z.string().email(),
         role: z.string(),
         plan: z.string(),
         address: z.string(),
         status: z.string(),
       })
     )
-    .mutation(({ input }: { input: User }) => {
-      const user = createUser(input);
-      return user;
+    .mutation(({ input }) => {
+      // Create a new user using the input data
+      const newUser = createUser(input);
+
+      return newUser;
+    }),
+
+  updateUserById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        name: z.string(),
+        email: z.string().email(),
+        role: z.string(),
+        plan: z.string(),
+        address: z.string(),
+        status: z.string(),
+      })
+    )
+    .mutation(({ input }) => {
+      if (!input.id) {
+        throw new Error("Id is required");
+      }
+      // Update the user with the provided ID using the updateData
+      const updatedUser = updateUser(input);
+
+      return updatedUser;
     }),
 });
 

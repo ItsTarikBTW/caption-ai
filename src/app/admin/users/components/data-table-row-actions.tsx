@@ -1,5 +1,4 @@
 "use client";
-
 import { DotsHorizontalIcon } from "@radix-ui/react-icons";
 import { Row } from "@tanstack/react-table";
 
@@ -28,9 +27,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import EditForm from "./edit-form";
 import { useState } from "react";
-import axios from "axios";
-import { toast, useToast } from "@/components/ui/use-toast";
-import { ToastAction } from "@radix-ui/react-toast";
+import { trpc } from "@/app/_trpc/client";
 interface DataTableRowActionsProps<TData> {
   row: Row<TData>;
 }
@@ -55,16 +52,14 @@ export function DataTableRowActions<TData>({
     }
   };
   
-  const handleDelete = async () => {
-    console.log("delete ", user.id);
-    const res = await fetch(`http://localhost:3000/api/users/${user.id}` ,{
-      method: "DELETE",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(user.id),
-    });
-    if (res.status === 200) {
-      console.log("deleted 200");
-      //toast
+  const handleDelete = () => {
+    try {
+      trpc.deleteUser.useMutation({ input: { id: user.id } });
+      // Handle success or perform any necessary actions after deletion
+      console.log('User deleted successfully.');
+    } catch (error) {
+      // Handle any errors that occurred during the deletion
+      console.error('Error deleting user:', error);
     }
   };
 

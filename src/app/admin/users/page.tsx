@@ -20,8 +20,6 @@ function getUsers() {
 
 export default function UserPage() {
   const users = getUsers();
-  const res=trpc.createUser.useMutation();
-  console.log(res);
   return (
     <Admin>
       <div className="px-6 pt-1">
