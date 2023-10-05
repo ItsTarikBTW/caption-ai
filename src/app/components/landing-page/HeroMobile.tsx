@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const HeroMobile = () => {
     return (
-        <section className='md:hidden w-full h-auto pt-20'>
-            <div className=" flex flex-col items-center justify-center px-5">
+        <section className='md:hidden w-full h-auto pt-20 px-5'>
+            <div className=" flex flex-col items-center justify-center">
                 <h1 className="text-center font-bold text-4xl bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text">
                     Add Subtitles to Video
                 </h1>
@@ -30,7 +30,7 @@ const HeroMobile = () => {
                 />
                 <button className="rounded-full px-5 py-3 text-white bg-[#F22E76]">Create my video now</button>
             </div>
-            <div className="flex flex-col justify-center items-center px-5 py-7">
+            <div className="flex flex-col justify-center items-center py-7">
                 <h1 className="text-center font-bold text-2xl text-black pb-3">
                     Fast And Effortless
                     Captions <span className="bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text">Powerd By AI</span>
