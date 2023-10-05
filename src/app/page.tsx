@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './components/navbar'
+import Navbar from './components/landing-page/Navbar'
 
-export default function page () {
+export default function page() {
   return (
-    <div>
-        <Navbar />
-      <h1>page</h1>
-    </div>
+    <main>
+      <Navbar /> 
+    </main>
   )
 }
