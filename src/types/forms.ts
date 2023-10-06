@@ -32,3 +32,15 @@ export type MultiSelectValues = {
     options: string[];
     selectedOptions: string[];
 }
+
+export type FeaturesCardValues = {
+    type: string;
+    desc: string;
+    price: number;
+    credits: string;
+    upload: string;
+    download_speed: string;
+    video_length: string;
+    ai_powered: boolean;
+    year: boolean;
+}

@@ -9,8 +9,8 @@ const Features = () => {
                     Subtitling For Your Business
                 </span>
             </h1>
-            <div className="flex flex-col justify-center items-center gap-5 md:flex-row">
-                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center min-h-67 md:w-1/3">
+            <div className="flex flex-wrap justify-center items-center gap-5 md:flex-row">
+                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center h- h-72 md:w-70">
                     <Image
                         className="pb-2"
                         src="./landing-page-assets/upload.svg"
@@ -23,7 +23,7 @@ const Features = () => {
                         sign up for a free account and upload your video file onto our transcription platform
                     </p>
                 </div>
-                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center min-h-67 md:w-1/3">
+                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center h-72 md:w-70">
                     <Image
                         className="pb-2"
                         src="./landing-page-assets/caption.svg"
@@ -36,7 +36,7 @@ const Features = () => {
                         We use industry leading artificial intelligence to transcribe and subtitle your file, we can transcribe as many files as you want
                     </p>
                 </div>
-                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center min-h-67 md:w-1/3">
+                <div className="bg-[#5D14A6] bg-opacity-20 rounded-md p-5 flex flex-col items-center justify-center h-72 md:w-70">
                     <Image
                         className="pb-2"
                         src="./landing-page-assets/export.svg"
@@ -45,7 +45,7 @@ const Features = () => {
                         height={50}
                     />
                     <h1 className="font-bold text-black text-xl">Review & Export</h1>
-                    <p className="text-[#555A63] text-center text-center p-5">
+                    <p className="text-[#555A63]  text-center p-5">
                         sign up for a free account and upload your video file onto our transcription platform
                     </p>
                 </div>

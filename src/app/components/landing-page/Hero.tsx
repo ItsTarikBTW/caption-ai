@@ -8,7 +8,7 @@ const Hero = () => {
                 <Image
                     className="py-7"
                     src={"./landing-page-assets/short.svg"}
-                    width={240}
+                    width={300}
                     height={50}
                     alt="short video image"
                 />
@@ -41,7 +41,7 @@ const Hero = () => {
                 <Image
                     className="py-7"
                     src={"./landing-page-assets/subShort.svg"}
-                    width={240}
+                    width={300}
                     height={50}
                     alt="short video image"
                 />
