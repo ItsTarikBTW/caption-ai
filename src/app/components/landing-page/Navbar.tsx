@@ -17,7 +17,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className='shadow-md w-full fixed top-0 left-0'>
+        <nav className='shadow-md w-full fixed top-0 left-0 z-50'>
             <div className='md:flex items-center justify-between bg-[#5D14A6] py-4 md:px-5 px-7'>
                 {/* logo section */}
                 <div className='font-bold text-2xl cursor-pointer'>
