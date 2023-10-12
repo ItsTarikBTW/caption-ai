@@ -1,18 +1,15 @@
 import Image from "next/image";
 import { StarFilledIcon } from "@radix-ui/react-icons"
+import Video from "./Video";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+
     return (
-        <section className="max-md:hidden w-full h-auto pt-20 px-5">
-            <div className="flex justify-center items-center">
-                <Image
-                    className="py-7"
-                    src={"./landing-page-assets/short.svg"}
-                    width={300}
-                    height={50}
-                    alt="short video image"
-                />
-                <div className="w-75 flex flex-col justify-center items-center px-3">
+        <section className="max-md:hidden w-full mid:h-screen pt-14">
+            <div className="flex justify-center items-center pt-5 px-2">
+                <Video pauseAble={false} source="./landing-page-assets/videos/video.mp4" />
+                <div className="w-75 h-full flex flex-col justify-center items-center px-3 gap-7">
                     <div>
                         <h1 className="text-center font-bold text-3xl bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text">
                             Add Subtitles to Video
@@ -30,23 +27,25 @@ const Hero = () => {
                         </p>
                     </div>
                     <Image
-                        className="my-10"
+                        className=""
                         src={'./landing-page-assets/arrow.svg'}
                         width={210}
                         height={10}
                         alt="arrow"
                     />
-                    <button className="rounded-full px-5 py-3 text-white bg-[#F22E76]">Create my video now</button>
+                    {/* <button className="rounded-full px-5 py-3 text-white bg-[#F22E76]">Create my video now</button> */}
+                    <Button variant={"default"}>Create my video now</Button>
                 </div>
-                <Image
-                    className="py-7"
+                {/* <Image
+                    className=""
                     src={"./landing-page-assets/subShort.svg"}
-                    width={300}
+                    width={250}
                     height={50}
                     alt="short video image"
-                />
+                /> */}
+                <Video source="./landing-page-assets/videos/captionVideo.mp4" />
             </div>
-            <div className="py-7">
+            <div className="pt-5">
                 <h1 className="text-center font-bold text-5xl text-black pb-3">
                     Fast And Effortless
                     Captions <span className="bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text">Powerd By AI</span>

@@ -1,7 +1,9 @@
 import { StarFilledIcon } from "@radix-ui/react-icons"
-import Image from "next/image";
+import Video from "./Video";
+import { Button } from "@/components/ui/button";
 
 const HeroMobile = () => {
+
     return (
         <section className='md:hidden w-full h-auto pt-20 px-5'>
             <div className=" flex flex-col items-center justify-center">
@@ -21,13 +23,14 @@ const HeroMobile = () => {
                 </p>
             </div>
             <div className="mx-5 flex flex-col items-center justify-center">
-                <Image
+                {/* <Image
                     className="py-7"
                     src={"./landing-page-assets/subShort.svg"}
                     width={300}
                     height={50}
                     alt="short video image"
-                />
+                /> */}
+                <Video source="./landing-page-assets/videos/captionVideo.mp4" style="py-7" />
                 <button className="rounded-full px-5 py-3 text-white bg-[#F22E76]">Create my video now</button>
             </div>
             <div className="flex flex-col justify-center items-center py-7">

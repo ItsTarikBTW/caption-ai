@@ -29,6 +29,10 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // primary_title: "bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text",
+        // primary_button: {
+        //   DEFAULT: "hsl(var(--primary-button))"
+        // },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

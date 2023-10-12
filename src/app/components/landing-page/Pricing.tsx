@@ -9,7 +9,7 @@ const Pricing = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
-    <section className="w-full h-auto px-5 pb-7">
+    <section className="w-full h-auto px-5 pb-7 bg-[#EEEEEE]">
       <div className="flex flex-col items-center justify-center">
         <h1 className="pb-3 text-center font-bold text-2xl text-black pt-10 bg-gradient-to-r from-[#F22E76] to-[#5D14A6] text-transparent bg-clip-text">
           Start Making You Captions
@@ -25,7 +25,7 @@ const Pricing = () => {
           <span className="text-[#5D14A6] text-xl">Save 20%</span>
         </div>
       </div>
-      <div className="mt-10 flex flex-wrap justify-center items-center gap-3">
+      <div className="mt-10 flex flex-wrap justify-center items-center gap-3 md:flex-row">
         <PricingCard
           type="Basic"
           desc="Ideal if your are just starting in content creation"
